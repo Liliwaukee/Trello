@@ -1,0 +1,214 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1D8DC2;
+}
+
+#navbar{
+  background-color:#147AA7 ;
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.logo{
+  height: 25px;
+  padding:0 0 0 320px;
+}
+
+#dashboard{
+  background-color: #1D8DC2;
+  height: 50px;
+}
+
+.dashboard-title{
+  color: white;
+  margin: 0 0 0 10px;
+  display: inline-block;
+}
+
+#container{
+  padding: 0 10px;
+}
+
+.add-list {
+  background-color: #147AA7;
+  color: white;
+  outline: none;
+  border: none;
+  height: 25px;
+  padding:5px;
+}
+
+.add-list::placeholder {
+  color: white;
+}
+
+.new-task {
+  box-sizing: border-box;
+  background-color: #e6e6e9;
+  border-radius: 5px;
+  display:inline-block;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.input-new-task {
+  box-sizing: border-box;
+  background-color: #dbdcdf;
+  color:gray;
+  border-radius: 5px;
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin:5px auto;
+  border: 1px solid #686666;
+  padding-left: 10px;
+}
+
+.input-new-task::placeholder {
+  color: #686666;
+}
+
+.add-button, .ta-button{
+  background-color:#72bf5d;
+  color:white;
+  border-radius: 5px;
+  padding:8px 10px;
+  margin: 0 3px 5px 3px;
+}
+
+.delete-new-task, .delete, .options {
+  color:gray;
+  margin-left: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.title{
+  margin:0;
+  padding: 5px 5px 5px 10px;
+  height: 30px;
+
+}
+
+.add-task {
+  background-color: #c6c6c6;
+  padding: 5px 5px 5px 10px;
+  margin: 0;
+  height: 25px;
+}
+
+#ta-content{
+  display:block;
+  resize: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ta-button{
+margin: 5px 5px 5px 10px;
+}
+
+.options{
+  float:right;
+  margin-right: 10px;
+  font-size:26px;
+}
+
+.content-paragraph{
+  margin-left: 10px;
+}
+
+.trello-icon-container{
+  height: 30px;
+  width: 90px;
+  background-color: #B0D3DA;
+  display: inline-block;
+  border-radius: 3px;
+  margin: 0;
+}
+
+.fa-trello{
+  color: white;
+  padding: 6px 10px 0 5px;
+}
+
+.dashboards-icon-text{
+  color:white;
+}
+
+.search-container{
+  height: 30px;
+  width: 195px;
+  background-color: #B0D3DA;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.fa-search{
+  color: white;
+  padding: 6px 10px 0 170px;
+}
+
+.plus-container, .clock-container, .bell-container{
+  height: 15px;
+  width: 15px;
+  background-color: #B0D3DA;
+  display: inline-block;
+  border-radius: 3px;
+  padding:7px;
+  margin-left: 5px;
+}
+
+.plus-container{
+  margin-left: 430px;
+}
+
+.fa-plus, .fa-clock-o, .fa-bell-o{
+  color: white;
+}
+
+.star-container{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.fa-star-o{
+  color: white;
+  display: inline-block;
+}
+
+.lock-container{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.fa-lock{
+  color: white;
+}
+
+.private-text{
+  color:white;
+  margin-left: 10px;
+}
+
+
+.ellipsis-container{
+  display: inline-block;
+  margin-left: 25px;
+  padding-left: 800px;
+}
+
+.fa-ellipsis-h{
+  color: white;
+}
+
+.show-menu-text{
+  color:white;
+  margin-left: 10px;
+  text-decoration: underline;
+}
